@@ -1,0 +1,345 @@
+:root {
+    --purple: #552E8C;
+    --gray: #a4a6a6;
+    --brown: #8c3414;
+    --orange: #d95525;
+    --black: #0d0d0d;
+    --white: #fff;
+}
+
+.schedule-template-default .schedule-title h2, .schedule-template-default .schedule-title h1 {
+    padding-right: 12px;
+    font-size: 1.5rem;
+    margin: 0.83rem 0;
+}
+.s-scoreboard {
+    background: whitesmoke;
+    height: 24px;
+    position: relative;
+}
+
+.c-scoreboard--slider {
+    height: 100%;
+}
+
+.c-scoreboard--slider .c-scoreboard__slider {
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    min-width: 1px;
+    min-height: 1px;
+    background: #fbfbfb;
+    height: 100%;
+    padding: 0 24px;
+}
+
+.c-scoreboard--slider .c-scoreboard__inner {
+    display: flex;
+    height: 100%;
+}
+
+.c-scoreboard--slider .c-scoreboard__slider .slick-track {
+    display: flex;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list, .slick-slider, .slick-track {
+    position: relative;
+    display: block;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.slick-track {
+    top: 0;
+    left: 0;
+}
+.slick-list, .slick-slider, .slick-track {
+    position: relative;
+    display: block;
+}
+
+.c-scoreboard--slider .c-scoreboard__slider .slick-slide {
+    float: none;
+    height: auto;
+}
+.c-scoreboard--slider .c-scoreboard__item {
+    border: 1px solid #e8e8e8;
+    border-left: none;
+}
+.s-scoreboard .c-scoreboard__item {
+    overflow: hidden;
+    padding: 10px 12px;
+    position: relative;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.c-scoreboard-game {
+    overflow: hidden;
+    padding: 10px 12px;
+    position: relative;
+    background: white;
+}
+
+.c-scoreboard-top {
+    font-size: 0.75rem;
+    margin: 0 0 6px;
+}
+
+.s-scoreboard .c-scoreboard__team-logo {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    min-width: 1px;
+    min-height: 1px;
+    margin: 0 12px 0 0;
+    width: 24px;
+    height: 24px;
+}
+
+.s-scoreboard .c-scoreboard__team-name--sport {
+    color: #16284c;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.s-scoreboard .c-scoreboard__team-name {
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    min-width: 1px;
+    min-height: 1px;
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.s-scoreboard .c-scoreboard__team + .c-scoreboard__team {
+    margin: 6px 0 0;
+}
+
+
+.c-navigation--sport ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c-navigation--sport.c-navigation--desktop .c-navigation__sport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 0;
+}
+
+.c-navigation--sport.c-navigation--desktop .c-navigation__item--level-1 {
+    cursor: default;
+    position: relative;
+}
+
+.c-navigation--sport.c-navigation--desktop .c-navigation__sport .c-navigation__url--level-1 {
+    font-family: 'Champion', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 0.2em 0 0;
+}
+.c-navigation--sport.c-navigation--desktop .c-navigation__url--level-1 {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0 12px;
+}
+.c-navigation--sport .c-navigation__url {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+.schedule-body-container .schedule-record {
+    padding: 8px 0;
+}
+
+.schedule-body-container .schedule-record ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule-body-container .schedule-record span {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--purple);
+    word-break: break-word;
+    text-align: center;
+    flex-basis: auto;
+}
+
+.schedule-body-container .schedule-record span:first-child {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.schedule-body-container .schedule-record li {
+    padding: 16px 8px;
+    box-shadow: 1px 0 0 0 #cccccc, 0 1px 0 0 #cccccc, 1px 1px 0 0 #cccccc, 1px 0 0 0 #cccccc inset, 0 1px 0 0 #cccccc inset;
+}
+
+.schedule-games {
+    padding-top: 8px;
+}
+
+.schedule-game-conference-conference {
+    display:flex;
+}
+
+.schedule-games-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule-game-completed {
+    background: #f2f2f2;
+    margin: 8px 0;
+}
+
+.schedule-game-completed:nth-child(even) {
+    background: #e5e5e5;
+}
+
+.schedule-game {
+    position: relative;
+}
+
+.schedule-game-row {
+    box-shadow: 0 1px 0 0 #cccccc, 0 1px 0 0 #cccccc inset;
+    padding: 8px 0;
+}
+
+.schedule-game-location {
+    text-transform: uppercase;
+}
+
+.schedule-game-result {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.schedule-game-links {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.schedule-game-opponent-logo img {
+    width: 80px;
+}
+
+.schedule-game-opponent > * {
+    margin: 0 4px;
+}
+
+.schedule-game-opponent-text > * {
+    vertical-align: middle;
+}
+
+.schedule-game-opponent-text {
+    margin: 8px 0;
+}
+
+.schedule-game-opponent-date span:first-child {
+    font-weight: bold;
+}
+
+.schedule-game .schedule-game-opponent-date {
+    font-size: 0.9rem;
+}
+
+
+
+
+.schedule-game-vs span {
+    font-weight: bold;
+    padding: 0 8px;
+    font-style: italic;
+}
+
+.schedule-game-away {
+    background-color: #656565;
+    color: white;
+}
+
+.schedule-game-home {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.schedule-game-opponent-name {
+    color: #666666;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
+
+.schedule-game-opponent-name a {
+    color: #666;
+    text-decoration: none;
+}
+
+.schedule-game-opponent {
+    text-transform: uppercase;
+    padding: 0 4px;
+}
+
+.schedule-game-links {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.schedule-game-links ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 768px) {
+    .s-scoreboard {
+        border-top: 6px solid #16284c;
+        height: 106px;
+    }
+}

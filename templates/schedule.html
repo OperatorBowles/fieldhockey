@@ -1,0 +1,139 @@
+{% extends 'template.html' %}
+
+{% block content %}
+    <div class='schedule-title flex flex-column medium-flex-row flex-align-center'>
+        <h2>2021 Field Hockey Schedule</h2>
+    </div>
+    <div class='schedule-body-container'>    
+        <div class='schedule-record'>
+            <h3 class='hide'>Season Record</h3>
+            <ul class='flex flex-wrap large-flex-no-wrap row'>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Overall</span>
+                    <span class='flex-item-1'>7-2</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Pct</span>
+                    <span class='flex-item-1'>.778</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Conf</span>
+                    <span class='flex-item-1'>4-1</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Pct</span>
+                    <span class='flex-item-1'>.800</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Streak</span>
+                    <span class='flex-item-1'>W2</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Home</span>
+                    <span class='flex-item-1'>2-1</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Away</span>
+                    <span class='flex-item-1'>5-1</span>
+                </li>
+                <li class='large-flex-item-1 flex flex-column flex-justify-center flex-align-center x-small-3 columns'>
+                    <span class='flex-item-1'>Neutral</span>
+                    <span class='flex-item-1'>0-0</span>
+                </li>
+            </ul>
+        </div>
+        <section class='schedule-games row'>
+            <ul class='schedule-games-container'>
+                <li class='schedule-game home-game W schedule-game-completed' data-game-id='1' data-game-opponent='2'>
+                    <div class='schedule-game-row flex flex-wrap flex-align-center row'>
+                        <div class='schedule-game-opponent flex flex-align-center x-large-5 medium-8 x-small-12 full columns'>
+                            <div class='schedule-game-opponent-logo'>
+                                <img class='' src='/static/img/patrickhenry.png'>
+                            </div>
+                            <div class='schedule-game-opponent-details flex-item-1'>
+                                <div class='flex flex-justify-between'>
+                                    <div class='schedule-game-opponent-date'>
+                                        <span>Oct 14 (Thu)</span>
+                                        <span>/ 7 PM</span>
+                                    </div>
+                                    <div class='schedule-game-conference-conference flex flex-inline noprint'>
+                                        
+                                    </div>
+                                </div>
+                                <div class='schedule-game-opponent-text'>
+                                    <span class='schedule-game-vs flex flex-inline'>
+                                        <span class='schedule-game-away'>at</span>
+                                    </span>
+                                    <div class='schedule-game-opponent-name'>
+                                        <a href='https://capitaldistrictva.com/patrickhenry' target='_blank'>Patrick Henry</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='x-large-4 hide-on-large-down columns'>
+                            <div class='schedule-game-location'>
+                                <span>Ashland, VA</span>
+                            </div>
+                        </div>
+                        <div class='schedule-game-results flex-item-1 columns'>
+                            <span class='schedule-game-result text-italic'>W, 4-2</span>
+                            <div class='schedule-game-links'>
+                                <ul>
+                                    <li>
+                                        <a href='/boxscore'>Box Score</a>
+                                    </li>
+                                    <li>
+                                        <a href='/recap'>Recap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class='schedule-game home-game W schedule-game-completed' data-game-id='1' data-game-opponent='2'>
+                    <div class='schedule-game-row flex flex-wrap flex-align-center row'>
+                        <div class='schedule-game-opponent flex flex-align-center x-large-5 medium-8 x-small-12 full columns'>
+                            <div class='schedule-game-opponent-logo'>
+                                <img class='' src='/static/img/Henrico.png'>
+                            </div>
+                            <div class='schedule-game-opponent-details flex-item-1'>
+                                <div class='flex flex-justify-between'>
+                                    <div class='schedule-game-opponent-date'>
+                                        <span>Oct 20 (Tue)</span>
+                                        <span>/ 7 PM</span>
+                                    </div>
+                                </div>
+                                <div class='schedule-game-opponent-text'>
+                                    <span class='schedule-game-vs flex flex-inline'>
+                                        <span class='schedule-game-home'>vs</span>
+                                    </span>
+                                    <div class='schedule-game-opponent-name'>
+                                        <span>Henrico</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='x-large-4 hide-on-large-down columns'>
+                            <div class='schedule-game-location'>
+                                <span>Mechanicsville, VA</span>
+                            </div>
+                        </div>
+                        <div class='schedule-game-results flex-item-1 columns'>
+                            <span class='schedule-game-result text-italic'>W, 5-0</span>
+                            <div class='schedule-game-links'>
+                                <ul>
+                                    <li>
+                                        <a href='/boxscore'>Box Score</a>
+                                    </li>
+                                    <li>
+                                        <a href='/recap'>Recap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+{% endblock %}

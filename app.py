@@ -87,3 +87,4 @@ def stats():
 @app.route('/roster')
 def roster():
     return render_template('roster.html')
+
